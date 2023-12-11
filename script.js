@@ -41,6 +41,7 @@ async function checkWeather(city){
     }else if(data.weather[0].main === 'Snow'){
         weatherIcon.src = './images/snow.png'
     }
+    document.querySelector('.weather-body').style.display = "block";
 }
 
 searchBtn.addEventListener('click', ()=>{
