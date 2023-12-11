@@ -93,3 +93,10 @@ body{
 #humidity, #wind{
     font-size: 24px;
 }
+
+#city-not-found {
+    display: none;
+    margin-top: 8px;
+    color: red;
+
+}
